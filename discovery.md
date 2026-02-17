@@ -12,14 +12,14 @@
 - **DB**: 165 tables (gateway/dialing_rule/users/user_alias/intercom/paging_group)
 
 ## Screenshots
-![Home](checkpoints/screenshots/home.png)
-![Users](checkpoints/screenshots/users.png)
-![Phones](checkpoints/screenshots/phones.png)
-![Gateways](checkpoints/screenshots/gateways.png)
-![IVR](checkpoints/screenshots/ivr.png)
-![Paging](checkpoints/screenshots/paging.png)
-![Intercom](checkpoints/screenshots/intercom.png)
-![Dialplan](checkpoints/screenshots/dialplan.png)
+![Home](checkpoints/screenshots/home.jpg)
+![Users](checkpoints/screenshots/users.jpg)
+![Phones](checkpoints/screenshots/phones.jpg)
+![Gateways](checkpoints/screenshots/gateways.jpg)
+![IVR](checkpoints/screenshots/ivr.jpg)
+![Paging](checkpoints/screenshots/paging.jpg)
+![Intercom](checkpoints/screenshots/intercom.jpg)
+![Dialplan](checkpoints/screenshots/dialplan.jpg)
 
 ## Mermaid Call Flow
 ```mermaid

@@ -4,4 +4,4 @@
 
 Dial: prefix + 1
 
-**Screenshot**: checkpoints/screenshots/paging.png
+**Screenshot**: checkpoints/screenshots/paging.jpg

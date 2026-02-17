@@ -6,4 +6,4 @@
 
 Dial: *76 + ext
 
-**Screenshot**: checkpoints/screenshots/intercom.png
+**Screenshot**: checkpoints/screenshots/intercom.jpg

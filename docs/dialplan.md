@@ -15,4 +15,4 @@
 - Intercom: *76 + ext
 - Voicemail: *98
 
-**Screenshot**: checkpoints/screenshots/dialplan.png
+**Screenshot**: checkpoints/screenshots/dialplan.jpg

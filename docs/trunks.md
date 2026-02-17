@@ -6,6 +6,6 @@
 - Prefix: +1
 - Caller ID: +13522680205
 
-**Screenshot**: checkpoints/screenshots/gateways.png
+**Screenshot**: checkpoints/screenshots/gateways.jpg
 
 **DB**: gateway table (psql dump)

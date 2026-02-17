@@ -23,4 +23,4 @@
 | 555 | 555 | Test User | - | WarrenTEK | 555 | Superadmin | Test/demo account |
 | 630200020 | 630200020 | Unused | - | KCLC | - | Admin | Directory number |
 
-**Screenshot**: checkpoints/screenshots/users.png
+**Screenshot**: checkpoints/screenshots/users.jpg
