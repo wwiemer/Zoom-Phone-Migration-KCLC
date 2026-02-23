@@ -1,0 +1,15 @@
+SIP_Extension,SIP_User_Name,Description,Real_Email_TBD,Zoom_Extension_TBD,DID,Zoom_Site,Notes
+200,Bus Station,KCLC Bus Station,,TBD-DISCOVER,,KCLC,Extension 200 not in original users.csv. Zoom ext TBD - may be 700-series. Obtain real email from KCLC.
+201,Front Desk,Main reception,,TBD-DISCOVER,+13522680205,KCLC,DID routes here or to hunt group - confirm during discovery. Obtain real email.
+202,Toy Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+203,Pet Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+204,Ice Cream Shop,,,TBD-DISCOVER,,KCLC,Obtain real email. MAC to verify (two devices - one active one spare)
+205,Administrator,System admin user,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+206,Sport Store,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+207,Ice Cream Shop / Music Store,Name discrepancy between users.csv and phones.csv,,TBD-DISCOVER,,KCLC,Reconcile room name during discovery. Obtain real email.
+208,Flower Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+209,The Market,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+210,The Paint Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+211,Media/Kitchen,,,TBD-DISCOVER,,KCLC,Was listed as Mobile (Wireless) in users.csv - confirm actual role. Obtain real email.
+212,The Clubhouse (VPK),,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+213,Resource Room,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC

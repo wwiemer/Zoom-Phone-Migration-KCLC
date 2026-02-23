@@ -1,0 +1,17 @@
+Serial/MAC,Description,Model,Version,Active,SIP_Extension,Notes
+0004f27baa59,Polycom VVX400 - Bus Station,polycomVVX400,polycom5.5.2,YES,200,Not in original users.csv - confirmed active in sipXcom
+0004f2dd7e86,Polycom VVX400 - Toy Shop (1 Yrs),polycomVVX400,polycom5.5.2,YES,201,
+0004f2887947,Polycom VVX410 - Pet Shop,polycomVVX410,polycom5.0.1,YES,202,Description in sipXcom: Pet Shop x202 - confirms ext 202
+0004f2de4e79,Polycom VVX400 - Sweet Shop (0 Yrs),polycomVVX400,polycom5.5.2,YES,203,Verify exact extension during Zoom discovery
+0004f2c9dedf,Polycom VVX410 - Ice Cream Shop,polycomVVX410,polycom5.5.2,VERIFY,204,One of two same-named devices. This OR 0004f27a7b32 is active. Verify which during Zoom discovery.
+0004f27a7b32,Polycom VVX410 - Ice Cream Shop (alt),polycomVVX410,polycom5.5.2,VERIFY,204,One of two same-named devices. This OR 0004f2c9dedf is active. Active device = most recently registered in sipXcom.
+0004f2de46b8,Polycom VVX400 - KCLC Administrator,polycomVVX400,polycom5.5.2,YES,205,Verify exact extension during Zoom discovery
+0004f2ddfe05,Polycom VVX400 - Sport Store (5 Yrs),polycomVVX400,polycom5.5.2,YES,206,Verify exact extension during Zoom discovery
+0004f2822926,Polycom VVX400 - Music Store,polycomVVX400,polycom5.5.2,YES,207,sipXcom description is Music Store; users.csv says Ice Cream Shop for ext 207 - reconcile during discovery
+0004f2c6a847,Polycom VVX400 - Flower Shop,polycomVVX400,polycom5.5.2,YES,208,
+0004f268033e,Polycom VVX400 - The Market,polycomVVX400,polycom5.5.2,YES,209,
+64167f909af0,Polycom VVX410 - The Paint Shop,polycomVVX410,polycom5.5.2,YES,210,Newer Poly OUI (64:16:7F). MAC may be stored as 6416f7909af0 in sipXcom - verify exact format before Zoom provisioning
+64167f31a96d,Polycom VVX401 - Media/Kitchen,polycomVVX401,polycom5.5.2,YES,211,Newer Poly OUI (64:16:7F). MAC may be stored as 6416f731a96d in sipXcom - verify exact format before Zoom provisioning
+64167f33f295,Polycom VVX401 - The Clubhouse (VPK),polycomVVX401,polycom5.5.2,YES,212,Newer Poly OUI (64:16:7F). MAC may be stored as 6416f733f295 in sipXcom - verify exact format before Zoom provisioning
+0004f2de4b0e,Polycom VVX400 - Resource Room,polycomVVX400,polycom5.5.2,YES,213,
+0004f28334a8,Warren VVX500 - Office,polycomVVX500,polycom5.5.1,EXCLUDED,N/A,Excluded from migration - device not in use
