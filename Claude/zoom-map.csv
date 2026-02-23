@@ -1,15 +1,15 @@
-SIP_Extension,SIP_User_Name,Description,Real_Email_TBD,Zoom_Extension_TBD,DID,Zoom_Site,Notes
-200,Bus Station,KCLC Bus Station,,TBD-DISCOVER,,KCLC,Extension 200 not in original users.csv. Zoom ext TBD - may be 700-series. Obtain real email from KCLC.
-201,Front Desk,Main reception,,TBD-DISCOVER,+13522680205,KCLC,DID routes here or to hunt group - confirm during discovery. Obtain real email.
-202,Toy Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-203,Pet Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-204,Ice Cream Shop,,,TBD-DISCOVER,,KCLC,Obtain real email. MAC to verify (two devices - one active one spare)
-205,Administrator,System admin user,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-206,Sport Store,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-207,Ice Cream Shop / Music Store,Name discrepancy between users.csv and phones.csv,,TBD-DISCOVER,,KCLC,Reconcile room name during discovery. Obtain real email.
-208,Flower Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-209,The Market,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-210,The Paint Shop,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-211,Media/Kitchen,,,TBD-DISCOVER,,KCLC,Was listed as Mobile (Wireless) in users.csv - confirm actual role. Obtain real email.
-212,The Clubhouse (VPK),,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
-213,Resource Room,,,TBD-DISCOVER,,KCLC,Obtain real email from KCLC
+SIP_Extension,SIP_User_Name,Description,Real_Email_TBD,Zoom_Extension,Zoom_Room_ID,DID,Zoom_Site,Status,Notes
+200,Bus Station,Bus Station room phone,,NOT-FOUND,,NOT-FOUND,KCLC,NEEDS-CREATE,No Zoom common area phone found by name. Must create. MAC: 0004f27baa59
+201,Toy Shop,Room phone in Toy Shop area,,709,GMeHixvtR8eRABQ3csMlSw,+13527820672,KCLC,CONFIRMED,phones.csv authoritative: Toy Shop. users.csv discrepancy said Front Desk — RECONCILE with Warren. DID already assigned in Zoom. MAC: 0004f2dd7e86
+202,Pet Shop,Pet Shop room phone,,705,F7q3mezoR8OFQKW0laljkQ,+13527820599,KCLC,CONFIRMED,Confirmed by sipXcom description (Pet Shop x202). DID already assigned in Zoom. MAC: 0004f2887947
+203,Sweet Shop,Sweet Shop room phone,,706,LPPrQxTRTyyvcsleeo8Meg,+13527820654,KCLC,CONFIRMED,phones.csv authoritative: Sweet Shop. zoom-map previously said Pet Shop — corrected. DID already assigned in Zoom. MAC: 0004f2de4e79
+204,Ice Cream Shop,Ice Cream Shop room phone (2 devices — verify active),,708,2gLxXygxR_6tW4TprFNslA,+13527820455,KCLC,CONFIRMED-VERIFY-MAC,CONFIRMED Zoom match. DID already assigned. VERIFY active MAC: 0004f2c9dedf vs 0004f27a7b32
+205,Administrator,KCLC Administrator desk phone,,TBD-CONFIRM,,TBD,KCLC,NEEDS-CLARIFY,No Zoom common area named Administrator. Zoom has Kids City user (ext 704 kclc@thefathershouse.com) and Tanya Thompson (ext 703). CONFIRM with Warren: is ext 205 mapped to a user account or needs new common area phone? MAC: 0004f2de46b8
+206,Sport Store,Sport Store room phone,,707,lmxDbGFHSDeW-LGFApjIjg,+13527820675,KCLC,CONFIRMED,DID already assigned in Zoom. MAC: 0004f2ddfe05
+207,Music Store,Music Store room phone,,710,IYPSW90tQFO9Hu8t011OqA,+13527820695,KCLC,CONFIRMED,phones.csv authoritative: Music Store. users.csv said Ice Cream Shop — corrected. DID already assigned in Zoom. MAC: 0004f2822926
+208,Flower Shop,Flower Shop room phone,,712,1CoVOPO4SNWP3ReAxQw3YQ,+13527820550,KCLC,CONFIRMED,DID already assigned in Zoom. MAC: 0004f2c6a847
+209,The Market,The Market room phone,,NOT-FOUND,,NOT-FOUND,KCLC,NEEDS-CREATE,No Zoom common area phone found. Must create. MAC: 0004f268033e
+210,The Paint Shop,The Paint Shop room phone,,NOT-FOUND,,NOT-FOUND,KCLC,NEEDS-CREATE,No Zoom common area phone found. Must create. MAC: 64167f909af0 (64:16:7F OUI — newer Polycom)
+211,Media/Kitchen,Media/Kitchen room phone,,715,mMlEKVkgT_iIH726fyMGXg,+13527820626,KCLC,CONFIRMED,DID already assigned in Zoom. MAC: 64167f31a96d (64:16:7F OUI)
+212,The Clubhouse (VPK),The Clubhouse (VPK) room phone,,713,WXYgCkjRRbSLAK3Vr3vZkA,+13527820631,KCLC,CONFIRMED,DID already assigned in Zoom. MAC: 64167f33f295 (64:16:7F OUI)
+213,Resource Room,Resource Room room phone,,TBD-CONFIRM,,TBD,KCLC,NEEDS-CLARIFY,Zoom has ext 714 The Rec Room — CONFIRM with Warren: is this the Resource Room? If yes map to 714 (+13527820566 already assigned). If no must create new. MAC: 0004f2de4b0e
