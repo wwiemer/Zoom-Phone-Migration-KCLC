@@ -1,0 +1,368 @@
+{
+  "_metadata": {
+    "backup_date": "2026-03-01",
+    "backup_time_et": "18:10 EST",
+    "pulled_by": "Warren Wiemer / Claude Sonnet 4.6 via Zoom MCP",
+    "purpose": "Pre-migration snapshot — state of Zoom Phone account before KCLC 3XX buildout",
+    "account": "thefathershouse.com (single account — TFH + KCLC)",
+    "port_scheduled": "2026-03-02 11:30 AM ET — number +13522680205",
+    "warning": "DO NOT MODIFY — restore reference only",
+    "mcp_limitations": [
+      "Call queues / hunt groups not accessible via MCP — check Zoom Admin Portal manually",
+      "Auto receptionists not accessible via MCP — check Zoom Admin Portal manually",
+      "Common area phone device/MAC assignments not accessible via MCP",
+      "Site configuration not accessible via MCP"
+    ]
+  },
+
+  "phone_users": {
+    "total_records": 13,
+    "pulled": "2026-03-01 17:42 ET",
+    "users": [
+      {
+        "id": "JDp0gLSJQWyvy_ObAIsW7Q",
+        "phone_user_id": "F7OGkgp7RNapkojAG2q-wA",
+        "name": "Kids City",
+        "email": "kclc@thefathershouse.com",
+        "extension_number": 704,
+        "extension_id": "HDheJxbiQKmZANCGfppDDA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": [],
+        "group": "KCLC",
+        "notes": "KCLC admin account. Equivalent to sipXcom ext 204 (KCLC Administrator). Migration target: ext 304."
+      },
+      {
+        "id": "xAdKdW2VRE-i5tKVI8S9jw",
+        "phone_user_id": "rg4m2WswTo-e7XKEHF5bYA",
+        "name": "Tanya",
+        "email": "tanya@thefathershouse.com",
+        "extension_number": 703,
+        "extension_id": "hxOr_f7BT5egs0HX7xDi8Q",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13524601259"],
+        "group": "TFH (misplaced in KCLC range)",
+        "notes": "TFH staff. Should be in TFH 200-range. Lower priority cleanup."
+      },
+      {
+        "id": "n4cnNxrBRpWr_brBlyjaSw",
+        "phone_user_id": "1_2DgfTeRauVPOVqbH2P5Q",
+        "name": "Stephen O'Neal",
+        "email": "stephen@thefathershouse.com",
+        "extension_number": 202,
+        "extension_id": "A5lqf7trSEKCgmxXcNQnfg",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13522186558"],
+        "group": "TFH",
+        "notes": "Account owner/admin. DO NOT TOUCH."
+      },
+      {
+        "id": "akn1nVCeR-qou7vSbGKZCQ",
+        "phone_user_id": "vX0lvH-NT8KkyHnuXL-sIQ",
+        "name": "Raymond Ramos",
+        "email": "rramos@thefathershouse.com",
+        "extension_number": 282,
+        "extension_id": "eY6CChhOR-29BdLi6g-7hA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13527820503"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "AyHzb_pNRiGJKSWa5O4Zow",
+        "phone_user_id": "dq6-XmosSrKePtOWVfoBAw",
+        "name": "Lisa Humphreys",
+        "email": "lisa@thefathershouse.com",
+        "extension_number": 246,
+        "extension_id": "kl193BkZQ7C-Vlb-aixHtQ",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13524601773"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "WfEfO_UIRJ2OkCSYwAp9kg",
+        "phone_user_id": "OK85OjONQ7i86QIT54jueQ",
+        "name": "Front Desk - Main TFH Number",
+        "email": "frontdesk@thefathershouse.com",
+        "extension_number": 245,
+        "extension_id": "Y5K8qwvKRLW4SadiOE5ESA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13523151815"],
+        "group": "TFH",
+        "notes": "TFH main front desk. DO NOT TOUCH."
+      },
+      {
+        "id": "6iMG-SpUTymcM5P9fT71Ow",
+        "phone_user_id": "SOuLkwHhTQivDDYBNNS93g",
+        "name": "Chris Nation",
+        "email": "chris@thefathershouse.com",
+        "extension_number": 241,
+        "extension_id": "FsBq0yjAStOm-cxXkKJbeA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13524601551"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "WpqP-uhhQ6WOP1XxircHWg",
+        "phone_user_id": "zZXmAfLcTMCliJul6wENTw",
+        "name": "Timothy Travis",
+        "email": "pastortim@thefathershouse.com",
+        "extension_number": 240,
+        "extension_id": "vvGABr75QvO1uUGAHnzjFQ",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13527820547"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "n74MMKw7STGP1w46iYQTbw",
+        "phone_user_id": "zNY4zSjdQVifYddmN7U1og",
+        "name": "Maggie Dowis",
+        "email": "MAGGIE@THEFATHERSHOUSE.COM",
+        "extension_number": 239,
+        "extension_id": "9crk3GtVSfy51wB4zhVbLQ",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13522186107"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "5yV6vglBSnSWB-HsUbl4lw",
+        "phone_user_id": "HbJyBtMDTF6-EJbTt4nNxw",
+        "name": "Elyse Pettway",
+        "email": "nextsteps@thefathershouse.com",
+        "extension_number": 235,
+        "extension_id": "L53MRTJgR3ifC0UGGJr6uA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13527820476"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "hjue5DBJRT-PSIR93VdqHQ",
+        "phone_user_id": "v6bWZbovTz6FOcBG0etHvg",
+        "name": "Simone Baker",
+        "email": "simone@thefathershouse.com",
+        "extension_number": 233,
+        "extension_id": "n0V0gDWxSV6V2gl6UM1ERQ",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13527820622"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "DthqtpnMR9CZqK7cF5KlrQ",
+        "phone_user_id": "q_tl1itNQT6eIQaHEfAdPw",
+        "name": "Andria Roberts",
+        "email": "aroberts@thefathershouse.com",
+        "extension_number": 232,
+        "extension_id": "md_GqfbKT4qv5vlGiqG_YQ",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13522186244"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      },
+      {
+        "id": "YulPrtI-RVyBmfd06zLLbQ",
+        "phone_user_id": "nP8IJyNLRbKJmRvW0X9GSg",
+        "name": "Anita Mahan",
+        "email": "anita@thefathershouse.com",
+        "extension_number": 230,
+        "extension_id": "dplbPwvKRCaPntzqQPOqVA",
+        "status": "activate",
+        "calling_plan": "US/CA Unlimited Calling Plan (type 200)",
+        "phone_numbers": ["+13527820549"],
+        "group": "TFH",
+        "notes": "DO NOT TOUCH."
+      }
+    ]
+  },
+
+  "common_area_phones": {
+    "total_records": 12,
+    "pulled": "2026-03-01 17:42 ET",
+    "note": "All KCLC rooms. These are the 700-series extensions being migrated to 300-series.",
+    "phones": [
+      {
+        "id": "GMeHixvtR8eRABQ3csMlSw",
+        "name": "Toy Shop",
+        "extension_number": 709,
+        "did": "+13527820672",
+        "sipxcom_ext": 201,
+        "migration_target_ext": 301,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "F7q3mezoR8OFQKW0laljkQ",
+        "name": "Pet Shop",
+        "extension_number": 705,
+        "did": "+13527820599",
+        "sipxcom_ext": 202,
+        "migration_target_ext": 302,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "LPPrQxTRTyyvcsleeo8Meg",
+        "name": "Sweet shop",
+        "extension_number": 706,
+        "did": "+13527820654",
+        "sipxcom_ext": 203,
+        "migration_target_ext": 303,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "2gLxXygxR_6tW4TprFNslA",
+        "name": "Ice cream shop",
+        "extension_number": 708,
+        "did": "+13527820455",
+        "sipxcom_ext": 206,
+        "migration_target_ext": 306,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "lmxDbGFHSDeW-LGFApjIjg",
+        "name": "Sports store",
+        "extension_number": 707,
+        "did": "+13527820675",
+        "sipxcom_ext": 205,
+        "migration_target_ext": 305,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "IYPSW90tQFO9Hu8t011OqA",
+        "name": "Music Store",
+        "extension_number": 710,
+        "did": "+13527820695",
+        "sipxcom_ext": 207,
+        "migration_target_ext": 307,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "1CoVOPO4SNWP3ReAxQw3YQ",
+        "name": "Flower Shop",
+        "extension_number": 712,
+        "did": "+13527820550",
+        "sipxcom_ext": 208,
+        "migration_target_ext": 308,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "TkiL-hgXRAiCkRfgIp2MlQ",
+        "name": "Police Station",
+        "extension_number": 717,
+        "did": "+13527820614",
+        "sipxcom_ext": 209,
+        "migration_target_ext": 309,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "qdyy7OXGQEyzudLyQRVx6A",
+        "name": "Fire Station",
+        "extension_number": 716,
+        "did": "+13527820635",
+        "sipxcom_ext": 210,
+        "migration_target_ext": 310,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "mMlEKVkgT_iIH726fyMGXg",
+        "name": "Media Center",
+        "extension_number": 715,
+        "did": "+13527820626",
+        "sipxcom_ext": 211,
+        "migration_target_ext": 311,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "WXYgCkjRRbSLAK3Vr3vZkA",
+        "name": "Club house",
+        "extension_number": 713,
+        "did": "+13527820631",
+        "sipxcom_ext": 212,
+        "migration_target_ext": 312,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      },
+      {
+        "id": "Ly2ky4FMR1mEfMJ-Quog0A",
+        "name": "The Rec Room",
+        "extension_number": 714,
+        "did": "+13527820566",
+        "sipxcom_ext": 213,
+        "migration_target_ext": 313,
+        "emergency_address": "2301 South St, Leesburg, FL 34748"
+      }
+    ]
+  },
+
+  "phone_numbers": {
+    "total_records": 26,
+    "pulled": "2026-03-01 17:42 ET",
+    "numbers": [
+      { "number": "+13522186107", "status": "available", "assignee": "Maggie Dowis", "ext": 239, "type": "user" },
+      { "number": "+13522186244", "status": "available", "assignee": "Andria Roberts", "ext": 232, "type": "user" },
+      { "number": "+13522186558", "status": "available", "assignee": "Stephen O'Neal", "ext": 202, "type": "user" },
+      { "number": "+13522680205", "status": "PENDING", "assignee": null, "ext": null, "type": null, "notes": "KCLC main number — port in progress, completes 2026-03-02 11:30 AM ET" },
+      { "number": "+13523151815", "status": "available", "assignee": "Front Desk - Main TFH Number", "ext": 245, "type": "user" },
+      { "number": "+13524601259", "status": "available", "assignee": "Tanya", "ext": 703, "type": "user" },
+      { "number": "+13524601551", "status": "available", "assignee": "Chris Nation", "ext": 241, "type": "user" },
+      { "number": "+13524601773", "status": "available", "assignee": "Lisa Humphreys", "ext": 246, "type": "user" },
+      { "number": "+13527820455", "status": "available", "assignee": "Ice cream shop", "ext": 708, "type": "commonArea" },
+      { "number": "+13527820476", "status": "available", "assignee": "Elyse Pettway", "ext": 235, "type": "user" },
+      { "number": "+13527820503", "status": "available", "assignee": "Raymond Ramos", "ext": 282, "type": "user" },
+      { "number": "+13527820547", "status": "available", "assignee": "Timothy Travis", "ext": 240, "type": "user" },
+      { "number": "+13527820549", "status": "available", "assignee": "Anita Mahan", "ext": 230, "type": "user" },
+      { "number": "+13527820550", "status": "available", "assignee": "Flower Shop", "ext": 712, "type": "commonArea" },
+      { "number": "+13527820566", "status": "available", "assignee": "The Rec Room", "ext": 714, "type": "commonArea" },
+      { "number": "+13527820599", "status": "available", "assignee": "Pet Shop", "ext": 705, "type": "commonArea" },
+      { "number": "+13527820614", "status": "available", "assignee": "Police Station", "ext": 717, "type": "commonArea" },
+      { "number": "+13527820622", "status": "available", "assignee": "Simone Baker", "ext": 233, "type": "user" },
+      { "number": "+13527820626", "status": "available", "assignee": "Media Center", "ext": 715, "type": "commonArea" },
+      { "number": "+13527820631", "status": "available", "assignee": "Club house", "ext": 713, "type": "commonArea" },
+      { "number": "+13527820635", "status": "available", "assignee": "Fire Station", "ext": 716, "type": "commonArea" },
+      { "number": "+13527820654", "status": "available", "assignee": "Sweet shop", "ext": 706, "type": "commonArea" },
+      { "number": "+13527820672", "status": "available", "assignee": "Toy Shop", "ext": 709, "type": "commonArea" },
+      { "number": "+13527820675", "status": "available", "assignee": "Sports store", "ext": 707, "type": "commonArea" },
+      { "number": "+13527820695", "status": "available", "assignee": "Music Store", "ext": 710, "type": "commonArea" },
+      { "number": "+13527820706", "status": "available", "assignee": null, "ext": null, "type": null, "notes": "UNASSIGNED — will be assigned to ext 300 Bus Station as temp main DID" }
+    ]
+  },
+
+  "kclc_inbound_call_flow": {
+    "source": "sipXcom live DB query — 2026-03-01",
+    "hunt_group_name": "KCLC-MAIN-HG-01",
+    "hunt_group_ext": 902,
+    "did": "+13522680205",
+    "voicemail_fallback": true,
+    "fallback_timeout_seconds": 30,
+    "voicemail_email": "kclc@thefathershouse.com",
+    "ring_members_simultaneous": [
+      { "position": 0, "sipxcom_ext": 200, "name": "Bus Station (Front Desk)", "zoom_target": 300, "ring_seconds": 24 },
+      { "position": 1, "sipxcom_ext": 201, "name": "Toy Shop", "zoom_target": 301, "ring_seconds": 24 },
+      { "position": 2, "sipxcom_ext": 202, "name": "Pet Shop", "zoom_target": 302, "ring_seconds": 24 },
+      { "position": 3, "sipxcom_ext": 203, "name": "Sweet Shop", "zoom_target": 303, "ring_seconds": 24 },
+      { "position": 4, "sipxcom_ext": 204, "name": "KCLC Administrator", "zoom_target": 304, "ring_seconds": 24 }
+    ],
+    "zoom_replication": "Create Call Queue in Zoom Phone — members: 300, 301, 302, 303, 304 — simultaneous ring — 24s timeout — voicemail to ext 304 (kclc@thefathershouse.com)"
+  },
+
+  "extension_ranges": {
+    "tfh_users_do_not_touch": [202, 230, 232, 233, 235, 239, 240, 241, 245, 246, 282],
+    "kclc_user_accounts": [703, 704],
+    "kclc_common_area_phones_current": [705, 706, 707, 708, 709, 710, 712, 713, 714, 715, 716, 717],
+    "kclc_migration_targets_300_range": [300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313],
+    "300_range_clear_confirmed": true
+  }
+}
