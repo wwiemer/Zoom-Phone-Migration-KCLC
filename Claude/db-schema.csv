@@ -1,0 +1,4 @@
+Schema,Name,Type,Owner
+public,address,table,postgres
+public,address_book_entry,table,postgres
+public,alarm_code,table,postgres

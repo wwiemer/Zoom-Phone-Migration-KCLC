@@ -1,0 +1,1 @@
+# Claude Redo: sipXcom KCLC Discovery\n\nSee SOP-Discovery.md for full thorough redo.\n\nArtifacts:\n- users.csv, phones.csv, zoom-map.csv, db-schema.csv (partial)\n- Enhanced Mermaid flows\n- SOP steps for replication\n\nGrok origin: ../discovery.md & ../docs/
