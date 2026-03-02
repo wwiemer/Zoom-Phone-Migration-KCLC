@@ -30,9 +30,9 @@
 | 9 | 208 | Flower Shop | **308** | 0004F2C6A847 | 10.1.12.190 | 712 | Flower Shop | +13527820550 |
 | 10 | 209 | Police Station | **309** | 0004F268033E | 10.1.12.191 | 717 | Police Station | +13527820614 |
 | 11 | 210 | Fire Station | **310** | 64167F909AF0 | 10.1.12.64 | 716 | Fire Station | +13527820635 |
-| 12 | 211 | Media/Kitchen | **311** | 64167F31A96D | 10.1.12.189 | 715 | Media Center | +13527820626 |
-| 13 | 212 | The Clubhouse | **312** | 64167F33F295 | 10.1.12.187 | 713 | Club house | +13527820631 |
-| 14 | 213 | Resource Room | **313** | 0004F2DE4B0E | 10.1.12.181 | 714 | The Rec Room | +13527820566 |
+| 12 | 212 | The Clubhouse | **312** | 64167F33F295 | 10.1.12.187 | 713 | Club house | +13527820631 |
+| 13 | 213 | Rec Room | **313** | 0004F2DE4B0E | 10.1.12.181 | 714 | The Rec Room | +13527820566 |
+| 14 | 211 | Media/Kitchen | **314** | 64167F31A96D | 10.1.12.189 | 715 | Media Center | +13527820626 |
 
 ---
 
@@ -51,9 +51,10 @@
 | **308** | Flower Shop | RENUMBER | 712 → 308. Name stays "Flower Shop". |
 | **309** | Police Station | RENUMBER | 717 → 309. Name stays "Police Station". |
 | **310** | Fire Station | RENUMBER | 716 → 310. Name stays "Fire Station". |
-| **311** | Media/Kitchen | RENUMBER + rename | 715 → 311. Fix name: "Media Center" → "Media/Kitchen". |
 | **312** | The Clubhouse | RENUMBER + rename | 713 → 312. Fix name: "Club house" → "The Clubhouse". |
-| **313** | Resource Room | RENUMBER + rename | 714 → 313. Fix name: "The Rec Room" → "Resource Room". |
+| **313** | Rec Room | RENUMBER + rename | 714 → 313. Fix name: "The Rec Room" → "Rec Room". |
+| *(311 — RESERVED)* | — | SKIP | 311 is an N11 service code. Not assignable. |
+| **314** | Media/Kitchen | RENUMBER + rename | 715 → 314. Fix name: "Media Center" → "Media/Kitchen". |
 
 ---
 
@@ -87,7 +88,7 @@
 - **KCLC admin user:** kclc@thefathershouse.com (ext 704 → moves to 304)
 - **300 range:** Completely clear in Zoom — no conflicts
 - **ZTP provisioning URL:** `https://provpp.zoom.us/api/v2/pbx/provisioning/Polycom/{model}`
-- **Emergency address (all devices):** 2301 South St, Leesburg, FL 34748
+- **Emergency address (all KCLC devices):** 2307 South St, Leesburg, FL 34748 ← Impact Center (NOT 2301 — that is TFH church building)
 
 ---
 

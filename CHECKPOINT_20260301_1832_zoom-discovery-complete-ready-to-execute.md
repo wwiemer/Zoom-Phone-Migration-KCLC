@@ -75,9 +75,9 @@ Complete read-only discovery of all 14 KCLC extensions across sipXcom and Zoom. 
 | 9 | 208 | Flower Shop | **308** | 0004F2C6A847 | Renumber 712→308 |
 | 10 | 209 | Police Station | **309** | 0004F268033E | Renumber 717→309 |
 | 11 | 210 | Fire Station | **310** | 64167F909AF0 | Renumber 716→310 |
-| 12 | 211 | Media/Kitchen | **311** | 64167F31A96D | Renumber 715→311 + fix name |
-| 13 | 212 | The Clubhouse | **312** | 64167F33F295 | Renumber 713→312 + fix name |
-| 14 | 213 | Resource Room | **313** | 0004F2DE4B0E | Renumber 714→313 + fix name |
+| 12 | 212 | The Clubhouse | **312** | 64167F33F295 | Renumber 713→312 + fix name |
+| 13 | 213 | Rec Room | **313** | 0004F2DE4B0E | Renumber 714→313 + fix name |
+| 14 | 211 | Media/Kitchen | **314** | 64167F31A96D | Renumber 715→314 + fix name (311 reserved — N11) |
 
 ---
 
