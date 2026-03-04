@@ -3,13 +3,13 @@
 **Created:** 2026-03-04 00:15:37 EST
 **Session:** KCLC-FEAT-20260304-012-SNNT-phase2-5.9.8-upgrade-and-ztp
 **Model:** Claude Sonnet 4.6
-**Status:** Phase 2 upgrades in progress (2 confirmed, 8 pending verification) — ZTP not started
+**Status:** Phase 2 COMPLETE — all 10 phones confirmed at 5.9.8 — ZTP not started
 
 ---
 
 ## Summary
 
-Phase 2 (5.9.8 firmware upgrade) unblocked and confirmed working on 10.1.12.189 and a second phone. Root cause was the tftpd64 TFTP server serving from `C:\tftp\` (not `C:\tftp\root\` as previously assumed) — all prior phase 2 cfg fixes went to the wrong directory. Batch fix applied to `C:\tftp\*.cfg`. Remaining 8 phones are upgrading. Next step: ZTP provisioning test on 10.1.12.189 (ext 314) once all 10 are confirmed at 5.9.8.
+Phase 2 (5.9.8 firmware upgrade) complete — all 10 remotely manageable phones confirmed at 5.9.8.5760. Root cause of the upgrade blockage was the tftpd64 TFTP server serving from `C:\tftp\` (not `C:\tftp\root\` as previously assumed) — all prior phase 2 cfg fixes went to the wrong directory. Batch fix applied to `C:\tftp\*.cfg`. Next step: ZTP provisioning test on 10.1.12.189 (ext 314).
 
 ---
 
@@ -55,12 +55,8 @@ Phase 2 (5.9.8 firmware upgrade) unblocked and confirmed working on 10.1.12.189 
 ### Stage 1 — Phase 1 (5.7.3) + Password ✅ COMPLETE
 All 10 remotely manageable phones: 5.7.3.1797, admin password = 2307
 
-### Stage 2 — Phase 2 (5.9.8 upgrade) — IN PROGRESS
-| Room | IP | Status |
-|------|----|--------|
-| Media/Kitchen | 10.1.12.189 | ✅ 5.9.8 confirmed |
-| (2nd phone) | — | ✅ 5.9.8 confirmed |
-| Remaining 8 | — | ⏳ Upgrading (initiated, verification pending) |
+### Stage 2 — Phase 2 (5.9.8 upgrade) ✅ COMPLETE
+All 10 remotely manageable phones confirmed at 5.9.8.5760 / Updater 5.9.8.4127.
 
 **How upgrade was unblocked:**
 - TFTP serving from `C:\tftp\` (not `C:\tftp\root\`)

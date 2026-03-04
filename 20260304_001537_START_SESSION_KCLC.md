@@ -1,6 +1,6 @@
 KCLC-FEAT-20260304-013-SNNT-ztp-provisioning-and-zoom-registration
 
-Phase 2 (5.9.8) upgrade unblocked and confirmed on 2 phones; remaining 8 initiated. Root cause was TFTP serving from C:\tftp\ not C:\tftp\root\ — batch fix applied. All 10 phones now have correct -598 cfg files.
+Phase 2 (5.9.8) upgrade complete — all 10 phones confirmed at 5.9.8.5760. Root cause was TFTP serving from C:\tftp\ not C:\tftp\root\ — batch fix applied.
 
 Checkpoint: [CHECKPOINT_20260304_0015_phase2-5.9.8-upgrade-complete-ztp-next.md](projects/Zoom-Phone-Migration-KCLC/CHECKPOINT_20260304_0015_phase2-5.9.8-upgrade-complete-ztp-next.md)
 Model: sonnet — multi-step workflow with known patterns
