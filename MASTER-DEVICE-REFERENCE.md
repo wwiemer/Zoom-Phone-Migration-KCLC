@@ -12,9 +12,9 @@
 
 | # | Room | Model | Part # | MAC | MAC (TFTP) | LAN IP | VLAN | sipXcom Ext | Zoom Ext | DID | Firmware | TFTP Config | Zoom Status | Notes |
 |---|------|-------|--------|-----|------------|--------|------|-------------|----------|-----|----------|-------------|-------------|-------|
-| 1 | Bus Station | VVX 400 | 3111-46157-002 | 0004F27BAA59 | 0004f27baa59 | 10.1.12.182 | 12 | 200 | 300 | +13522680205 / +13527820706 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | Main KCLC number. Port complete 2026-03-02. |
-| 2 | Toy Shop | VVX 400 | 3111-46157-002 | 0004F2DD7E86 | 0004f2dd7e86 | 10.1.12.185 | 12 | 201 | 301 | +13527820672 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
-| 3 | Pet Shop | VVX 410 | 3111-46162-001 | 0004F2887947 | 0004f2887947 | 10.1.12.68 | 12 | 202 | 302 | +13527820599 | **5.0.1.4068** ⚠️ | ❌ Needs investigation | ⏳ Pending | BootROM 5.2.1.3271. Pre-Updater era. Upgrade path unknown — do not touch until investigated. |
+| 1 | Bus Station | VVX 400 | 3111-46157-002 | 0004F27BAA59 | 0004f27baa59 | 10.1.12.182 | 12 | 200 | 300 | +13522680205 / +13527820706 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | Main KCLC number. Port complete 2026-03-02. **TEMPORARILY OFFLINE** — replaced with Poly Edge E220 while VVX upgrades in progress. Do last. |
+| 2 | Toy Shop | VVX 400 | 3111-46157-002 | 0004F2DD7E86 | 0004f2dd7e86 | 10.1.12.185 | 12 | 201 | 301 | +13527820672 | 5.7.3.1797 🔄 | Phase 2 pending | ⏳ Pending | Factory reset 2026-03-03. Phase 1 confirmed. Password changed to 2307. |
+| 3 | Pet Shop | VVX 410 | 3111-46162-001 | 0004F2887947 | 0004f2887947 | 10.1.12.68 | 12 | 202 | 302 | +13527820599 | **5.0.1.4068** ⚠️ | ❌ Blocked | ⏳ Pending | **ON-SITE REQUIRED** — BootROM 5.2.1.3271. Pre-Updater era. Cannot upgrade directly to 5.7.3 (uses polycom/5.0.1/ path structure). Needs intermediate firmware (5.4.x) research before upgrade attempt. |
 | 4 | Sweet Shop | VVX 400 | 3111-46157-002 | 0004F2DE4E79 | 0004f2de4e79 | 10.1.12.180 | 12 | 203 | 303 | +13527820654 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
 | 5 | KCLC Administrator | VVX 400 | 3111-46157-002 | 0004F2DE46B8 | 0004f2de46b8 | 10.1.10.176 | 10 | 204 | 304 | *(none)* | **5.9.8.5760** ✅ | Phase 2 complete | ⏳ ZTP pending | Different VLAN (10). First phone upgraded — full path confirmed. |
 | 6 | Sport Store | VVX 400 | 3111-46157-002 | 0004F2DDFE05 | 0004f2ddfe05 | 10.1.12.183 | 12 | 205 | 305 | +13527820675 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
@@ -22,10 +22,10 @@
 | 8 | Music Store | VVX 400 | 3111-46157-002 | 0004F2822926 | 0004f2822926 | 10.1.12.186 | 12 | 207 | 307 | +13527820695 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
 | 9 | Flower Shop | VVX 400 | 3111-46157-002 | 0004F2C6A847 | 0004f2c6a847 | 10.1.12.190 | 12 | 208 | 308 | +13527820550 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
 | 10 | Police Station | VVX 400 | 3111-46157-002 | 0004F268033E | 0004f268033e | 10.1.12.191 | 12 | 209 | 309 | +13527820614 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | sipXcom labeled "The Market" — actual room: Police Station |
-| 11 | Fire Station | VVX 410 | 3111-46162-001 | 64167F909AF0 | 64167f909af0 | 10.1.12.64 | 12 | 210 | 310 | +13527820635 | **5.8.0.12386** 🔄 | Phase 2 ready (skip Phase 1) | ⏳ Pending | Updater 5.9.5.12119 — already past threshold. Go straight to 5.9.8. sipXcom labeled "The Paint Shop". |
+| 11 | Fire Station | VVX 410 | 3111-46162-001 | 64167F909AF0 | 64167f909af0 | 10.1.12.64 | 12 | 210 | 310 | +13527820635 | **Unknown** ⚠️ | TFTP cfg points to 5.9.8 | ⏳ Pending | **ON-SITE REQUIRED** — Factory reset attempted remotely, unknown password blocking web UI access. Needs physical recovery. TFTP cfg already set for direct 5.9.8. |
 | 12 | The Clubhouse | VVX 401 | 3111-48400-001 | 64167F33F295 | 64167f33f295 | 10.1.12.187 | 12 | 212 | 312 | +13527820631 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
 | 13 | Rec Room | VVX 400 | 3111-46157-002 | 0004F2DE4B0E | 0004f2de4b0e | 10.1.12.181 | 12 | 213 | 313 | +13527820566 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | |
-| 14 | Media/Kitchen | VVX 401 | 3111-48400-001 | 64167F31A96D | 64167f31a96d | 10.1.12.189 | 12 | 211 | 314 | +13527820626 | 5.5.2 ⏳ | Phase 1 ready | ⏳ Pending | Factory reset done 2026-03-02. sipXcom config cleared. |
+| 14 | Media/Kitchen | VVX 401 | 3111-48400-001 | 64167F31A96D | 64167f31a96d | 10.1.12.189 | 12 | 211 | 314 | +13527820626 | 5.7.3.1797 🔄 | Phase 2 pending | ⏳ Pending | Factory reset done 2026-03-02. Phase 1 confirmed 2026-03-03. Password changed to 2307. |
 
 ---
 
